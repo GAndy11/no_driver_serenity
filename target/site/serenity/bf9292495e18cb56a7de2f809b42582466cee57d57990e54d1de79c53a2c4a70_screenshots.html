@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="a2f523f45683bd7c9b0b852973e56cfd5f3769893a88e93206f7411537737135.html">Sign Up In Utest.Com</a></span>
+                > <span class="truncate-60"><a
+                    href="bf9292495e18cb56a7de2f809b42582466cee57d57990e54d1de79c53a2c4a70.html">SignUp in utest platform </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-02-2021 17:00</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Sign Up In Utest.Com </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user,
+I want to signup in utest.com
+So I can share with a testers community
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">SignUp in utest platform
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="174e34fe5cf021dd66ab2ff58f2af9add8cb97dfdf3871fce5b4efb48b8b144b.png" title="Given than Alexander was in the utest page" width="1920"/>
+                <img src="c5ad80f703453fac9145cc9c8cfd5074c032eefaabc62dd3430444215e39e72d.png" title="Alexander opens the U test page" width="1920"/>
+                <img src="f34c569bce4b09a018196046a889e44e6f164dfdd9cd71138844bddb1c0a7c9b.png" title="Alexander clicks on join button" width="1920"/>
+                <img src="6d4da00677dec6d240b319ed8182f27d7fe24d6827fee4d449b8fc669fa8e253.png" title="When he fill the complete subscribe form
+| firstName | lastName | email | birthMonth | birthDay | birthYear | city | zipCode | country | computerOS | computerVersion | computerLanguage | mobileDevice | mobileDeviceModel | mobileDeviceOS | password |
+| Alexander | Echeverry | test12@test12.com | May | 15 | 1991 | medellin | 050001 | colombia | Windows | Vista | Spanish | Apple | iPhone 4 | iOS 11.2 | Colombia15234/** |" width="1920"/>
+                <img src="b6becaaa505f16e4660f54815f394c9086c1151ab80b1a07300b15425f262ac1.png" title="Alexander enters 'Alexander' into first name input" width="1920"/>
+                <img src="346e8c2697331201099b8ef78b19d530247802f342180a0d1d110bef2c3b0c15.png" title="Alexander enters 'Echeverry' into last name input" width="1920"/>
+                <img src="d5b89997e902ae4e67a83032df2d15e07c081b5742b52d0eacde877b1a6963fd.png" title="Alexander enters 'test12@test12.com' into email input" width="1920"/>
+                <img src="72bb03d303e895dd24bdd4e8ddb926d9e7a6d646ed5cae7059d342e7e35a1bcf.png" title="Alexander select May on birth month input" width="1920"/>
+                <img src="86c8e393204783caba69bdc79653107d1f84ed11c0d513dfe699947ece465ff2.png" title="Alexander select 15 on birth day input" width="1920"/>
+                <img src="25ec7c1132c0c1c8589afb00e2886c1d033a38cfbc2845f3bb01d629df08cbc2.png" title="Alexander select 1991 on birth year input" width="1920"/>
+                <img src="9467b41c57e6a365cff924942720c1e68f537dfd27f806418479a97d0142820c.png" title="Alexander clicks on next locations button" width="1920"/>
+                <img src="f0c3b0bc8c48bc37e4f6b80b5cc2d6a833ebee092b58ab5233380502be9b0f3f.png" title="Alexander enters 'medellin' into city input" width="1920"/>
+                <img src="c38870a5d53a3580b188ee4c6fd95a44d71073af584218832be39ee79bdc67ff.png" title="Alexander types 'ARROW_DOWN' in city input" width="1920"/>
+                <img src="72f16bd86d1297915cea8fd1d92b36b7c462c82f9877ec7866e749bf95db0d51.png" title="Alexander types 'ENTER' in city input" width="1920"/>
+                <img src="47ea362300e2c7ad450e0225acc7e3d7c8dee92e8f9fcb829e3da169f1dcb106.png" title="Alexander enters '050001' into zip code input" width="1920"/>
+                <img src="16667ff6586bfdd7c55f6073ef3215bcc8e07520ac8eef713edf0b67f552e3e8.png" title="Alexander clicks on country box" width="1920"/>
+                <img src="665d4126e187eb0bdf0c50dca7db821faccdb65d3d9a5ff8d31359f43e1b762e.png" title="Alexander enters 'colombia' into country input" width="1920"/>
+                <img src="c49d9e93cc0225980c981af5084e75dc020217b41429f40b87cc12d6ea6cfd1f.png" title="Alexander types 'ENTER' in country input" width="1920"/>
+                <img src="d28e8c8aeda98119bf7270a204b22580ed1645899a4a452c0dd6f1dde885a252.png" title="Alexander clicks on next devices button" width="1920"/>
+                <img src="45c916ca550b2a853cec646fa9be87d745dd2894eed25a5e1aaf609bdbf62724.png" title="Alexander clicks on computer box" width="1920"/>
+                <img src="6cb830fb20f04f041e0958aa4534a7314b9a6deecd1c32b173b93924ab14b971.png" title="Alexander enters 'Windows' into computer input" width="1920"/>
+                <img src="61ceb79be6eed0dd5e6d8374118f69405c34db09a4561dd5d09f3549f4cf3383.png" title="Alexander types 'ENTER' in computer input" width="1920"/>
+                <img src="9aab51e8c0b17c1139cb2465bab9d1215b3d8db972759ffb272c79ef05a2fc48.png" title="Alexander clicks on computer version box" width="1920"/>
+                <img src="78b64709f979ecca05532b0c5aba1ee7a7d34bfb83ceb775d05bea9f9755bc0e.png" title="Alexander enters 'Vista' into computer version input" width="1920"/>
+                <img src="1075545aee945ef8954cb9c1ed971ae5e74e8cc175f68b3713d2a7b20b10eb81.png" title="Alexander types 'ENTER' in computer version input" width="1920"/>
+                <img src="8e6289c31e81ff63c3d4f940424818f880e0ff6c64f260c71a43c5d606ab30a6.png" title="Alexander clicks on computer language box" width="1920"/>
+                <img src="18b69969f332ea773a03b0b6a6faa587552e636bb8efcc133eeda153ba66f054.png" title="Alexander enters 'Spanish' into computer language input" width="1920"/>
+                <img src="4be8e5c68002e03079d646428c7d2953bfc63cc892596a4285248689a00eedb6.png" title="Alexander types 'ENTER' in computer language input" width="1920"/>
+                <img src="e60c689dcd4470cd005f40f68d1edabd78d4c3cda1b79ce40d0cbb612e75d13b.png" title="Alexander clicks on mobile device box" width="1920"/>
+                <img src="93559650f87a2b374e9a5ca861d486e6fe91da9b9c56e037eaf7a5d4e1236015.png" title="Alexander enters 'Apple' into mobile device input" width="1920"/>
+                <img src="9a7789c39fc340564524eb3585702983a395341253d9f7da0240a9cf3f01cdd9.png" title="Alexander types 'ENTER' in mobile device input" width="1920"/>
+                <img src="d5110d69402310f915f6ff3808f484ca51004da3f626cf6dcaad241ec2a85822.png" title="Alexander clicks on mobile device model box" width="1920"/>
+                <img src="2a8f4de9e7662224afd14a1c6683d6a26d604a93766091d131d8be13e48d1808.png" title="Alexander enters 'iPhone 4' into mobile device model input" width="1920"/>
+                <img src="1f95fae90346a629a32717bee937847620ec82d2244e071729f556235eeac9c9.png" title="Alexander types 'ENTER' in mobile device model input" width="1920"/>
+                <img src="dfaa289072713d3e4767ffc2707e960932228731a9f596027a47f61f6a6d187a.png" title="Alexander clicks on mobile device os box" width="1920"/>
+                <img src="ba1e3aa971aaf3ccb11fc9197fb08f0a1c675997cab7b7b121aea85d5bba45cb.png" title="Alexander enters 'iOS 11.2' into mobile device os input" width="1920"/>
+                <img src="a951651b34989d486d905a695b090b513d39ba5a75995837f996f9c59f672bd2.png" title="Alexander types 'ENTER' in mobile device os input" width="1920"/>
+                <img src="bd52bbbe3cf03f54a7b47c2af343758709fabf1e2ee282b5fd44dcf8713a89d5.png" title="Alexander clicks on last step button" width="1920"/>
+                <img src="b565c1d3ee7436fabdd67f19e72f5ee892d4cb4c8367255eb67ef7ede272f78b.png" title="Alexander enters 'Colombia15234/**' into password input" width="1920"/>
+                <img src="534266d4f5425cddc28f15d7d4441400dcb0763260961490869f205984a0f018.png" title="Alexander enters 'Colombia15234/**' into confirm password input" width="1920"/>
+                <img src="4c7aaf6463dd2fec10c35ad0dc804d0f3203c413e0c36095388e7a832e6f7624.png" title="Alexander clicks on stay informed checkbox" width="1920"/>
+                <img src="f0aee9fd54153a5f5371c19bf8f13abe009ef88bf1da1954f4af9e3646f5cf1b.png" title="Alexander clicks on terms use checkbox" width="1920"/>
+                <img src="6d4da00677dec6d240b319ed8182f27d7fe24d6827fee4d449b8fc669fa8e253.png" title="Alexander clicks on security policy checkbox" width="1920"/>
+                <img src="6d4da00677dec6d240b319ed8182f27d7fe24d6827fee4d449b8fc669fa8e253.png" title="Then he can see the welcome message
+| msgFinal |
+| The last step |" width="1920"/>
+                <img src="6d4da00677dec6d240b319ed8182f27d7fe24d6827fee4d449b8fc669fa8e253.png" title="Then answer: <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
